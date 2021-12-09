@@ -1,18 +1,24 @@
 ---
 ---
 {% include blog-head.html %}
-<link rel="stylesheet" type="text/css" href="../../../../stylesheet.css">
 
 <nav id="sideBar">
-	<a href="/">home</a>
-	<a href="/about">about me</a>
-	<a href="">contact</a>
-	<a href="">portfolio</a>
-	<a href="/blog">blog</a>
+{% include blog-nav.html %}
 </nav>
 
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheet.css">
+<style>
+	.segment p{
+		grid-column: span 4;
+	}
+</style>
+
+
 <div id="mainContent">
+	{% include breadcrumbs.html omit_home=true omit_date=true %}
+
 	<div class="segment">
+		<h1> {{ page.title }}</h1>
 		{{content}}
 		<span class="dateTag">{{ page.date | date_to_string }}</span>
 	</div>

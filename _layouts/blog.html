@@ -2,12 +2,9 @@
 ---
 {% include blog-head.html %}
 <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+
 <nav id="sideBar">
-	<a href="/">home</a>
-	<a href="/about">about me</a>
-	<a href="">contact</a>
-	<a href="">portfolio</a>
-	<a href="">blog</a>
+{% include blog-nav.html %}
 </nav>
 
 <div id="mainContent">
@@ -19,14 +16,14 @@
 			<img src="{{ post.image }}" class="previewImage w-1">
 			<span class="w-3">
 			<a href="{{ post.url }}" class="titleLink"><h1>{{ post.title }}</h1></a>
-			<p> {{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
+			<p> {{ post.content | strip_html | markdownify | strip_html | truncatewords: 50 }}</p>
 			<p class="postDate">{{ post.date| date: "%d %B %Y" }}</p>
 			</span>
 			{% else %}
 			<span class="w-4">
 			<a href="{{ post.url }}" class="titleLink"><h1>{{ post.title }}</h1></a>
 			<p class="postDate">{{ post.date| date: "%d %B %Y" }}</p>
-			<p> {{ post.content | markdownify | strip_html | truncatewords: 50 }}</p>
+			<p> {{ post.content | strip_html | markdownify | strip_html | truncatewords: 50 }}</p>
 			
 			</span>
 			{% endif %}
