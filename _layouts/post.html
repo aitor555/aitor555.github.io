@@ -1,0 +1,18 @@
+---
+---
+{% include blog-head.html %}
+
+<nav id="sideBar">
+	<a href="/">home</a>
+	<a href="/about">about me</a>
+	<a href="">contact</a>
+	<a href="">portfolio</a>
+	<a href="/blog">blog</a>
+</nav>
+
+<div id="mainContent">
+	<div class="segment">
+		{{content}}
+		<span class="dateTag">{{ page.date | date_to_string }}</span>
+	</div>
+</div>
