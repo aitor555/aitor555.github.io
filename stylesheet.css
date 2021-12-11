@@ -80,26 +80,27 @@
 	}
 	h1{
 		font-size: 3.8rem;
-		margin-bottom: 1rem;
 		grid-column: span 4;
 	}
 	h2{
-		margin-bottom: 0.9rem;
 		font-size: 2.2rem;
 		grid-column: span 4;
 	}
 	h3{
 		grid-column: span 4;
-	}
-	.dateTag{
-		grid-column: span 4;
+		font-size: 1.8rem;
 	}
 	p{
 		font-size: 1.6rem;
 		font-weight: 300;
 		outline: 0;
 	}
-
+	span{
+		grid-column: span 4;
+	}
+	.dateTag{
+		grid-column: span 4;
+	}
 	a{
 		transform-origin: left bottom;
 		cursor: url(images/cursor.png) 25 25, auto;
@@ -232,6 +233,9 @@
 	}
 	.previewImage{
 		margin-top: 1rem;
+	}
+	.breadcrumbs{
+		margin-bottom: 0.6rem;
 	}
 	/*breakpoints baby*/
 

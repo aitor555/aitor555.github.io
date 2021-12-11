@@ -10,6 +10,11 @@
 <style>
 	.segment p{
 		grid-column: span 4;
+		display: flex;
+	}
+	p img{
+		width: 35%;
+		margin: auto;
 	}
 </style>
 
@@ -18,8 +23,13 @@
 	{% include breadcrumbs.html omit_home=true omit_date=true %}
 
 	<div class="segment">
+	<span>
 		<h1> {{ page.title }}</h1>
-		{{content}}
 		<span class="dateTag">{{ page.date | date_to_string }}</span>
+	</span>
+			{% if page.image %}
+		<p><img src="{{ page.image }}"></p>
+			{% endif %}
+		{{content}}
 	</div>
 </div>
