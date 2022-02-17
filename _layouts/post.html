@@ -1,35 +1,16 @@
 ---
+layout: default
 ---
-{% include blog-head.html %}
-
-<nav id="sideBar">
-{% include blog-nav.html %}
-</nav>
-
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheet.css">
-<style>
-	.segment p{
-		grid-column: span 4;
-		display: flex;
-	}
-	p img{
-		width: 35%;
-		margin: auto;
-	}
-</style>
 
 
 <div id="mainContent">
-	{% include breadcrumbs.html omit_home=true omit_date=true %}
-
-	<div class="segment">
-	<span>
-		<h1> {{ page.title }}</h1>
-		<span class="dateTag">{{ page.date | date_to_string }}</span>
-	</span>
-			{% if page.image %}
-		<p><img src="{{ page.image }}"></p>
-			{% endif %}
-		{{content}}
+	<div class="postContainer">
+<h1> {{ page.title }} </h1>
+ {{content}}
 	</div>
 </div>
+
+
+<script type="text/javascript">
+	var bricklayer = new Bricklayer(document.querySelector('.bricklayer'));
+</script>

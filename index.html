@@ -1,0 +1,39 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: index
+title: Home
+---
+<div class="bricklayer">
+	<a href="{{ site.baseurl }}/media/images/homescreen_v3.png"><img src="{{ site.baseurl }}/media/images/homescreen_v3.png" alt="screenshot of custom homescreen landing page"></a>
+	<a href="{{ site.baseurl }}/media/images/HelseInnDesign.png"><img src="{{ site.baseurl }}/media/images/HelseInnDesign.png" alt="screenshot of Helse inn website design preview"></a>
+	<a href="https://gardenview.netlify.app/"><img src="{{ site.baseurl }}/media/images/gardenview_2.png" alt="screenshot of gardenview app preview"></a>
+	<a href="{{ site.baseurl }}/media/images/zeitgeist.png"><img src="{{ site.baseurl }}/media/images/zeitgeist.png" alt="graphic design project preview"></a>
+	<a href="https://gardenview.netlify.app/"><img src="{{ site.baseurl }}/media/images/gardenview_2.png" alt="screenshot of gardenview app preview"></a>
+</div>
+
+<style type="text/css">
+	#num1, #num4, #num7, #num10{
+		color: #454545;
+	}
+	  .bricklayer-column-sizer {
+	    /* divide by 4. */
+	    width: 25%;
+	  }
+	  .bricklayer-column{
+	  	padding-left: 0;
+	  	padding-right: 2px;
+	  }
+	  .bricklayer a img{
+	  	max-width: 100%;
+	  }
+	  @media only screen and (max-width: 767px) {
+			.bricklayer-column-sizer  {
+			  width: 100%;
+			}
+			.bricklayer-column a{
+				margin: 100px 0;
+			}
+		}
+</style>

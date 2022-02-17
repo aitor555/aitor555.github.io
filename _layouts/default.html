@@ -1,0 +1,60 @@
+---
+---
+<html lang="en">
+{% include site-head.html %}
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/jekyll-code-style.css">
+
+<header id="deskNav">
+{% include desk-nav.html %}
+</header>
+
+
+<header id="mobileNav">
+{% include mobile-nav.html %}
+</header>
+{% include favicon-anim.html %}
+{% include topbar.html %}
+{{content}}
+
+
+
+<!--<script src="{{ site.baseurl }}/minimasonry.min.js"></script>
+<script type="text/javascript">
+	var masonry = new MiniMasonry({
+    container: '.container',
+    baseWidth: 255,
+    gutter: 2,
+    minify: true
+	});
+
+</script> -->
+
+<div style="width: 100%; height: 100%; background: white; position: fixed; top: 0; left: 0; display: flex; align-items: center; justify-content: center;" class="loader">
+	<span style="color: #454545;">loading...</span>
+</div>
+<script type="text/javascript">
+	document.querySelector("#menuBtn").onclick = function (e) {
+		var menu = document.querySelector('#mobileNavMenu');
+		var menuBtn = document.querySelector('#menuBtn');
+		var body = document.querySelector('body');
+
+		menu.classList.toggle('is-active');
+		menuBtn.classList.toggle('is-active');
+		body.classList.toggle('is-active');
+		console.log("fuck");
+		e.preventDefault();
+	}
+	function vanish(){
+		loader.classList.add("dissapear");
+		 setTimeout(function(){ loader.remove() }, 2000);
+	}
+	var loader = document.querySelector(".loader");
+
+	window.addEventListener("load", vanish);
+		window.setTimeout(myFunction, 300);
+	function myFunction() {
+	bricklayer.redraw();
+	}
+</script>
+</html>
