@@ -316,6 +316,9 @@ h1:after{
 		grid-template-columns: repeat(6, minmax(50px, 1fr));
 		padding-top: 30px;
 	}
+	.bricklayer a img{
+		margin-bottom: 20px;
+	}
 	#mobileNav{
 		display: flex;
 	    position: fixed;
