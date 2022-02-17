@@ -233,6 +233,7 @@ h1:after{
 #topBar{
 	grid-column-start: 4;
     grid-column-end: 16;
+    display: none;
 }
 
 #stripedBar{
@@ -313,7 +314,7 @@ h1:after{
 @media only screen and (max-width: 767px) {
 	body{
 		grid-template-columns: repeat(6, minmax(50px, 1fr));
-		padding-top: 80px;
+		padding-top: 30px;
 	}
 	#mobileNav{
 		display: flex;
