@@ -319,6 +319,9 @@ h1:after{
 	.bricklayer a img{
 		margin-bottom: 20px;
 	}
+	.bricklayer a{
+		display: flex;
+	}
 	#mobileNav{
 		display: flex;
 	    position: fixed;
