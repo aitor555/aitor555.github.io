@@ -317,10 +317,16 @@ h1:after{
 		padding-top: 30px;
 	}
 	.bricklayer a img{
-		margin-bottom: 20px;
+		margin-bottom: 25px;
 	}
 	.bricklayer a{
 		display: flex;
+		filter: saturate(0);
+		transition: filter 0.2s;
+	}
+	.bricklayer a:hover{
+		filter: saturate(1);
+		transition: filter 0.2s;
 	}
 	#mobileNav{
 		display: flex;
