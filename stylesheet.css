@@ -138,7 +138,7 @@ ul{
 }
 
 li:before {
-  content: url(media/svg/PlusSymbol.svg);
+  content: url(media/svg/plusSymbol.svg);
   height: 11px;
   padding-right: 4px;
   display: inline-block;
