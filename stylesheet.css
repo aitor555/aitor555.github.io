@@ -309,7 +309,7 @@ h1:after{
 	margin-bottom: 2px;
 }
 
-/*mobile size*/
+/*mobile size media query*/
 @media only screen and (max-width: 767px) {
 	body{
 		grid-template-columns: repeat(6, minmax(50px, 1fr));
