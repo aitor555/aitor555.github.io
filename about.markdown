@@ -3,6 +3,7 @@ layout: index
 title: About
 permalink: /about/
 ---
+
 <div id="column1_6">
 	<h1>Title</h1>
 	<p>
@@ -11,6 +12,8 @@ permalink: /about/
 	<p>
 		I run an <a href="https://www.instagram.com/_a.i.t.o.r_/">Instagram page</a> where i post my graphic design work as well as a <a href="/blog">blog</a> which i started in 2022 to post about anything that interests me.
 	</p>
+	<p><img src="/media/images/zeitgeist.png" class="zoom"></p>
+	
 </div>
 
 <div id="column7_12">
