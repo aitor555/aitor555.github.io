@@ -10,6 +10,8 @@
 	
 	{% include topbar.html %}
 
+	<img src="{{site.baseurl}}/media/svg/BBLL.svg" id="bbll" alt="">
+
 	<!--Content from other templates-->
 	{{content}}
 	</div>
@@ -52,7 +54,8 @@
 		bricklayer.redraw();
 		}
 		mediumZoom( '.zoom', {
-			scrollOffset: 90
+			scrollOffset: 90,
+			margin: 30
 		})
 	</script>
 </html>

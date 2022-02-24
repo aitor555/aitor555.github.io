@@ -70,11 +70,15 @@ body{
 	color: #454545;
 }
 
-p, a, #breadcrumbs, ul, .mediumSub{
+p, a, #breadcrumbs, ul, .mediumSub, #projectCats{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 }
-
+#projectCats{
+	font-size: 16px;
+	color: #a1a1a1;
+	text-transform: capitalize;
+}
 a{
 	color: #2965ff;
 	text-decoration: none;
@@ -99,6 +103,15 @@ p a::after{
 
 img{
 	max-width: 100%;
+}
+
+#bbll {
+    position: fixed;
+    z-index: -6;
+    right: 10px;
+    bottom: 10px;
+    height: 40px;
+    opacity: 0.1;
 }
 
 #blogList{
@@ -158,6 +171,7 @@ h1{
 	font-weight: 900;
 	font-size: 38px;
 	text-transform: uppercase;
+	margin-bottom: 12px;
 }
 h1:after{
   counter-increment: titles;
@@ -311,7 +325,7 @@ h1:after{
 }
 
 #mainContent p{
-	margin-bottom: 16px;
+	margin-bottom: 20px;
 }
 
 #column1_6{
@@ -322,6 +336,12 @@ h1:after{
 #column7_12{
 	grid-column-start: 7;
     grid-column-end: 12;
+}
+
+#column6_13{
+	grid-column-start: 6;
+    grid-column-end: 13;
+    padding-left: 40px;
 }
 
 @keyframes vanish {
@@ -414,9 +434,12 @@ h1:after{
 	#mainContent{
 		grid-template-columns: repeat(6, 1fr);	
 	}
-	#column1_6, #column7_12{
+	#column1_6, #column7_12, #column6_13{
 		grid-column-start: 1;
 	    grid-column-end: 7;
+	}
+	#column6_13{
+		padding: 0;
 	}
 	.bricklayer{
 		grid-column: span 6;

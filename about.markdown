@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div id="column1_6">
-	<h1>Title</h1>
+	<h1>About me</h1>
 	<p>
 		My name is Gabriel (or Aitor), I am a webdeveloper and graphic designer with a bachelor in web development from the Norwegian University of Science and Technology. My main area of expertise is front end development but I am comfortable with both front and back end development. 
 	</p>

@@ -3,10 +3,7 @@ layout: default
 ---
 
 <div id="mainContent">
-    <div class="postContainer">
-
         {{content}}
-    </div>
 </div>
 
 
@@ -15,5 +12,11 @@ layout: default
         width: 50%;
         margin: 0 auto;
         display: block;
+    }
+    /*mobile size media query*/
+    @media only screen and (max-width: 767px){
+        .postContainer p img{
+            width: 90%;
+        }        
     }
 </style>

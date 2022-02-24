@@ -211,8 +211,8 @@
       var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {}, target = _ref2.target;
       var _animate = function _animate() {
         var container = {
-          width: document.documentElement.clientWidth,
-          height: document.documentElement.clientHeight,
+          width: window.innerWidth,
+          height: window.innerHeight,
           left: 0,
           top: 0,
           right: 0,
