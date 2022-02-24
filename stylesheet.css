@@ -317,7 +317,7 @@ h1:after{
 }
 
 .bricklayer a:hover img{
-	transform: scale(1.04);
+	transform: scale(1.02);
 }
 
 .dissapear{
@@ -363,7 +363,7 @@ h1:after{
 	width: 100%;
 }
 /*mobile size media query*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 850px) {
 	#siteWrapper{
 		grid-template-columns: repeat(6, minmax(50px, 1fr));
 			padding: 30px 3.2%;
