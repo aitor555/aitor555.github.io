@@ -70,8 +70,12 @@ body{
 	color: #454545;
 }
 
+/*roboto*/
+p, a, #breadcrumbs, ul, .mediumSub, #projectCats, h1, h2, h3{
+  font-family: 'Roboto', sans-serif;
+}
+
 p, a, #breadcrumbs, ul, .mediumSub, #projectCats{
-	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 }
 #projectCats{
@@ -167,7 +171,6 @@ li:before {
 }
 
 h1{
-	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	font-size: 38px;
 	text-transform: uppercase;
