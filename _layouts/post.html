@@ -16,3 +16,22 @@ layout: default
         color: #454545;
     }
 </style>
+<script type="text/javascript">
+    var images = document.getElementsByTagName("img");
+    var i;
+
+    for(i = 0; i < images.length; i++) {
+        images[i].className += " zoom";
+    }
+
+    //open external links in a new window
+    function external_new_window() {
+        for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+            var b = c[a];
+            if(b.getAttribute("href") && b.hostname !== location.hostname) {
+                b.target = "_blankd";
+            }
+        }
+    }
+    external_new_window();
+</script>
