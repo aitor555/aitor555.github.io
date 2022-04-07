@@ -87,11 +87,14 @@ a{
 	color: #2965ff;
 	text-decoration: none;
 	font-weight: 500;
-	padding: 0 1px;
+	padding: 0 2px;
 	cursor: url('media/images/cursor.png'), pointer;
 }
-
+bold{
+	font-weight: bold;
+}
 p a:hover{
+	color: white;
 	background-color: #2965ff;
 }
 
@@ -103,6 +106,10 @@ p a::after{
 	position: relative;
 	top: -1px;
 	left: 1px;
+}
+
+p a:hover::after{
+	filter: saturate(0) brightness(6);
 }
 
 img{

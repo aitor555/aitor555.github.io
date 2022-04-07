@@ -11,3 +11,10 @@ permalink: /blog/
     </li>
   {% endfor %}
 </ul>
+
+
+<style type="text/css">
+  #num1{
+    color: #454545;
+  }
+</style>
