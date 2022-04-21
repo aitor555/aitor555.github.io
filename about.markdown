@@ -12,7 +12,7 @@ permalink: /about/
 	<p>
 		I run an <a href="https://www.instagram.com/_a.i.t.o.r_/">Instagram page</a> where I post my graphic design work, as well as a <a href="/blog">blog</a> which I started in 2022 to post about anything that interests me.
 	</p>
-	<p><img src="/media/images/temporaryPic.png" class="zoom"></p>
+	<p><img src="/media/images/selfie.png" class="zoom"></p>
 	
 </div>
 
