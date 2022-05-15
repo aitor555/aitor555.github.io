@@ -13,6 +13,6 @@ categories: [graphic design, branding]
 <div id="column6_13">
 	<span id="projectCats">{{ page.categories | join: " / " }}</span>
 	<h1>{{page.title}}</h1>
-	<p>One of my first real design commissions was for a rollerblading clothing company based in Sheffield called <bold>Forged from Steel</bold>. They originally comissioned me for just one t-shirt design, but ended up ordering two of them as well as an alternate version of their main logo. I enjoyed doing this project quite a lot because they gave me a general idea of the vibe they wanted but still left room for me to play and experiment with the layout, elements, etc.</p>
-	<p>The designs are heavily influenced by the rugged, industrial image of Sheffield, historically an important city for steel production.</p>
+	<p>One of my first real design commissions was for a rollerblading clothing company based in Sheffield called <bold>Forged from Steel</bold>. I was comissioned to design a tshirt for them and while they originally comissioned me for just one t-shirt design, they ended up ordering two of them, as well as an alternate version of their main logo. I enjoyed doing this project quite a lot because they gave me a general idea of the vibe they wanted but still left room for me to play and experiment with the layout, elements, etc.</p>
+	<p>The designs are heavily influenced by the rugged, industrial image of Sheffield, historically an important city for steel production. At this point i still was quite inexperienced and working with a customer was an entirely new experience and ultimately very valuable for me.</p>
 </div>

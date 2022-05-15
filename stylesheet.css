@@ -68,7 +68,22 @@ body{
 	grid-template-rows: 62px auto auto;
 	counter-reset: titles;
 	color: #454545;
+	max-width: 1600px;
+    margin: auto;
 }
+
+	#backLink {
+		color: #2965ff;
+		margin-bottom: 16px;
+		width: fit-content;
+	}
+	#backLink:hover{
+		color: white;
+		background-color: #2965ff;
+	}
+	#backLink::before {
+		content: "< ";
+	}
 
 /*roboto*/
 p, a, #breadcrumbs, ul, .mediumSub, #projectCats, h1, h2, h3, ol{
@@ -301,7 +316,7 @@ h2, h3{
 #stripedBar{
 	height: 10px;
 	width: 100%;
-	background: url(media/svg/Stripes.svg);
+	background: url(media/svg/stripes.svg);
 	margin-top: 12px;
 }
 .numeralGrid p{
