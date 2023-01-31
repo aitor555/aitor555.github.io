@@ -5,8 +5,8 @@ categories: [3D, graphic design]
 ---
 <div id="headerDiv" class="w1200">
 	<a href="/" id="navLogoLink" style="margin-bottom: 0; margin-right: auto;"><img src="{{ site.baseurl }}/media/svg/AitorLogo.svg" id="navLogo" alt="Aitor logo"></a>
-	<a class="PFlink" style="margin-right: 20px;">Instagram</a>
-	<a class="PFlink">Email</a>
+	<a href="https://www.instagram.com/aitor.online/"class="PFlink" style="margin-right: 20px;">Instagram</a>
+	<a href="mailto:aitor.online555@gmail.com"class="PFlink">Email</a>
 </div>
 <div class="w1200" style="margin-bottom: 50px;">
 		<p style="font-size:26px; text-align: center; font-weight: 500;">
