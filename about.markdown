@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: about
 title: About
 permalink: /about/
 ---
@@ -10,7 +10,7 @@ permalink: /about/
 		My name is Gabriel (or Aitor), I am a web developer and graphic designer with a bachelor in web development from the Norwegian University of Science and Technology. My main area of expertise is front end development, but I am comfortable with both front and back end development. 
 	</p>
 	<p>
-		I run an <a href="https://www.instagram.com/_a.i.t.o.r_/">Instagram page</a> where I post my graphic design work, as well as a <a href="/blog">blog</a> which I started in 2022 to post about anything that interests me.
+		I run an <a href="https://www.instagram.com/aitor.online/" target="_blank">Instagram page</a> where I post my graphic design work, as well as a <a href="/blog">blog</a> which I started in 2022 to post about anything that interests me.
 	</p>
 	<p><img src="/media/images/selfie.png" class="zoom"></p>
 	

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: work
 title:  "NTNU department of design webpage design"
 categories: [web design, front end development]
 ---

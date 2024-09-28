@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: work
 title:  "Various posters"
 categories: [graphic design]
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: work
 title:  "startpage V5"
 categories: [Front-end, graphics]
 ---
@@ -8,7 +8,6 @@ categories: [Front-end, graphics]
 	<p><img src="/media/images/startpage_project2.png" class="zoom" alt="startpage userinterface on lush forest background"></p>
 	<p><img src="/media/images/homescreen_v4.png" class="zoom" alt="startpage userinterface on background of science fiction girl"></p>
 	<p><img src="/media/images/startpage_project.png" class="zoom" alt="startpage userinterface on a modern building facade background image"></p>
-
 </div>
 
 <div id="column6_13">

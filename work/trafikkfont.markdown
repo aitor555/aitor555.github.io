@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: work
 title:  "Trafikk Regular"
 categories: [Font design]
 ---

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: work
 title:  "Forged From Steel"
 categories: [graphic design, branding]
 ---

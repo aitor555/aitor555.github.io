@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: work
 title:  "My first Portfolio"
 categories: [frontend]
 ---

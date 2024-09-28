@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: work
 title:  "Gardenview"
 categories: [Front-end, visual identity, logo]
 ---

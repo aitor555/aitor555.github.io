@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div id="mainContent" class="gridContent">
+    <a href="/" id="backLink">back</a>
+        {{content}}
+</div>
+
+
+<style type="text/css">
+    .postContainer p img{
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+        #num1, #num6{
+        color: #454545;
+    }
+
+    /*mobile size media query*/
+    @media only screen and (max-width: 767px){
+        .postContainer p img{
+            width: 90%;
+        }        
+    }
+</style>
