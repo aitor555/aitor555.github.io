@@ -87,7 +87,7 @@ body{
 	}
 
 /*roboto*/
-p, a, #breadcrumbs, ul, .mediumSub, #projectCats, h1, h2, h3, ol{
+p, a, #breadcrumbs, ul, .mediumSub, #projectCats, h1, h2, h3, ol, span{
   font-family: 'Roboto', sans-serif;
 }
 
