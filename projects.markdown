@@ -5,6 +5,7 @@ permalink: /projects/
 ---
 
 <ul id="blogList">
+    <li><a href="/projects/music_idea_generator" class="blogPosting"><span class="status">◐</span>Music idea generator</a></li>
     <li><a href="/projects/startpage" class="blogPosting"><span class="status">○</span>New startpage</a></li>
     <li><a href="/projects/redesign" class="blogPosting"><span class="status">◐</span>new website design</a></li>
     <li><a href="/projects/keyboard" class="blogPosting"><span class="status">◐</span>keyboard design</a></li>
