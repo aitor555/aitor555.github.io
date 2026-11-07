@@ -6,7 +6,7 @@ categories: [3D, graphic design]
 <div id="mainContent" class="gridContent">
 	<div id="game-idea-container">
 		<h1 id="game-idea-title">Song challenge:</h1>
-		<p>
+		<p style="line-height: 2;">
 			Make <span id="song-article">a</span>
 			<span id="song-energy" class="song-info first active"> <span class="song-info-value">energy</span></span>
 			<span id="song-vibe" class="song-info first active"><span class="song-info-value">vibe</span>
